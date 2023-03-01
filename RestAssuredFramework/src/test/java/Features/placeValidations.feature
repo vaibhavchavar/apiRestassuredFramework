@@ -1,4 +1,5 @@
 Feature: validation of add place Api
+#feature files
 @AddPlace
 Scenario Outline: Verify if place is being Sucessfully added using AddplaceApi
     Given add place payload with "<name>" "<language>" "<address>"
